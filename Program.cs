@@ -10,15 +10,25 @@ namespace VirtualPet
     {
         static void Main(string[] args)
          {
+            int xx = 0;
 
-            Console.WriteLine("\t\t\t\tVirtual Pet!!\\t\t\t\t");
-
-
+            while (xx <= 3)
+            {
+                Console.Write(" "); Console.WriteLine("  _      _      _      _      _      _      _      _");
+                Console.Write(" "); Console.WriteLine(">(.)__ >(.)__ >(.)__ >(.)__ >(.)__ >(.)__ >(.)__ >(.)__");
+                Console.Write(" "); Console.WriteLine(" (___/  (___/  (___/  (___/  (___/  (___/  (___/  (___/");
+                xx++;
+            }
+            Console.WriteLine();
+            Console.WriteLine("\t\t\tYour Very Own Rubber Duck!!\t\t\t");
+            Console.WriteLine();
             //introduction for user to understand the program
-            Console.WriteLine("You have been given a lovely virtual pet!.\nLuckily (or unlucky),for you,\nyour pet will never die because I have yet to understand the code to kill it.\nHave fun!");
-
+            Console.WriteLine("What luck! You have been given your very own rubber duck.\nNow, you have the perfect companion to help with all that work coming your way.");
+            Console.WriteLine();
+            Console.WriteLine("However, this is no everyday duck and you will need to do all you can to keep it entertained (and alive).\nHow else will you work out the best solutions to problems??\nHave fun!");
+            Console.WriteLine();
             //request for user input
-            Console.WriteLine("What is your pet's name");
+            Console.WriteLine("What is your duck's name");
 
             //section for user input
             String userNameInput = (Console.ReadLine());
@@ -75,7 +85,8 @@ namespace VirtualPet
                         Console.WriteLine("Invalid selection. Please select 1, 2, or 3");
                         break;
                 }
-                    }               
+                    }   
+                        
           }
     }
 }

@@ -39,7 +39,7 @@ namespace VirtualPet
         public int GiveFood()
                    
             {
-                return (this.feedPet + 5);
+            return (feedPet - 4);
             }
 
         public int GiveWater()
